@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Aplicacao-de-teste
+  host: Aplicacao-de-testeFlavio
+  disk_quota: 1024M
+  services:
+  - Aplicacao-de-teste-AdvancedMobileAccess
+  - Aplicacao-de-teste-imfpush
+  - Aplicacao-de-teste-cloudantNoSQLDB
